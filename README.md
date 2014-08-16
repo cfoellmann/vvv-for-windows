@@ -14,6 +14,17 @@ Current Versions:
 
 Open [table_compatibility.tgn](https://github.com/cfoellmann/vvv-for-windows/blob/master/table_compatibility.tgn) on [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables) to edit
 
+## Howto
+....Coming Soon!?
+
+Aiming for something as simple as this:
+
+> Do __NOT__ do this at the moment!!
+> Open CMD, Copy&Paste:
+```
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/cfoellmann/vvv-for-windows/master/vvv-installer.ps1'))"
+```
+
 ## Scripts
 ### [vvv-installer.ps1](https://github.com/cfoellmann/vvv-for-windows/blob/master/vvv-installer.ps1)
 - Arguments:
@@ -33,9 +44,6 @@ Open [table_compatibility.tgn](https://github.com/cfoellmann/vvv-for-windows/blo
 		- is VVV tracked via Git? (Pull)
 	- Check Custom Sites for VVV
 		- TBD
-
-## Howto
-- ....Coming Soon!?
 
 ## @todo
 - Installation: VirtualBox + Enforce defined version
