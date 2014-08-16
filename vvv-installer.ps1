@@ -3,6 +3,7 @@
 #
 # Varying Vagrant Vagrants for Windows
 #
+# ---- vvv-installer.ps1 v0.0.1
 # ==============================================================================
 
 @todo VBoxManage extpack install <.vbox-extpack> --replace # https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack
