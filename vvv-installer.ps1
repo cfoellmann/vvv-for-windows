@@ -12,8 +12,8 @@
 param(
     [switch]$checkonly = $false,
     [switch]$vbext = $false,
-    [string]$vvvsource = $false, # -vvvsource "github.com/Varying-Vagrant-Vagrants/VVV"
-    [string]$vvvpath = $false # -vvvpath "C:\path\to\vvv"
+    [string]$vvvsource = "https://github.com/Varying-Vagrant-Vagrants/VVV.git", # -vvvsource "https://github.com/Varying-Vagrant-Vagrants/VVV"
+    [string]$vvvpath = "C:\vvv" # -vvvpath "C:\path\to\vvv"
 )
 
 #############

@@ -30,7 +30,7 @@ Aiming for something as simple as this:
 - Arguments:
 	- `--checkonly` = only check installed versions (without installation, up- or downgrades)
 	- `--vbext` = install "VirtualBox Extension Pack"
-	- `-vvvsource <source>` = use a custom VVV package (example: `-vvvsource "https://github.com/Varying-Vagrant-Vagrants/VVV"`)
+	- `-vvvsource <source>` = use a custom VVV package (example: `-vvvsource "https://github.com/Varying-Vagrant-Vagrants/VVV.git"`)
 	- `-vvvpath <absolutepath>` = set the destination path of your VVV folder (example: `-vvvpath "C:\path\to\vvv"`)
 - Functions
 	- Check VirtualBox
